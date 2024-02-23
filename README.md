@@ -8,6 +8,7 @@ Pay attention to the three modules:
 
 ## Running
 1. Run Maven install **in the parent project**.
-2. Run the server using the exec:java goal in the server module.
-3. Run the client using the javafx:run goal in the client module.
-4. Press the button and see what happens!
+2. Run the OCSF file using : clean install package.
+3. Run the server using the exec:java goal in the server module.
+4. Run the client using the javafx:run goal in the client module.
+5. Press the button and see what happens!
