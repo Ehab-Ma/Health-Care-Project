@@ -12,3 +12,6 @@ Pay attention to the three modules:
 3. Run the server using the exec:java goal in the server module.
 4. Run the client using the javafx:run goal in the client module.
 5. Press the button and see what happens!
+![FinalBakcground](https://github.com/Ehab-Ma/Health-Care-Project/assets/92383051/fd44a68a-03c7-471e-b9d8-e37aac49251a)
+![Screenshot 2024-02-23 225229](https://github.com/Ehab-Ma/Health-Care-Project/assets/92383051/fd98b40f-789e-4b4d-8575-17ecdec7a982)
+
