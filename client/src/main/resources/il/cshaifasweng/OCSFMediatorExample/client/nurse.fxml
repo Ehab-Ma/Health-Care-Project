@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.NurseController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../FinalBakcground.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backBtn" ellipsisString="" mnemonicParsing="false" onAction="#backBtnAction" prefHeight="22.0" prefWidth="73.0" style="-fx-background-color: #111111;" text="back" textFill="WHITE" underline="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fx:id="welcome_text" fill="#12d0ff" layoutX="138.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="text" wrappingWidth="118.93670654296875" />
+      <ImageView fitHeight="33.0" fitWidth="39.0" layoutX="98.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Medical-Nurse-Female-Dark-icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="view_apps" layoutX="210.0" layoutY="187.0" mnemonicParsing="false" onAction="#view_apps_handler" prefHeight="33.0" prefWidth="157.0" style="-fx-background-color: #123454;" text="View Your Appointments" textFill="WHITE" wrapText="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#12d0ff" height="22.0" layoutX="23.0" layoutY="114.0" stroke="#12d0ff" strokeType="INSIDE" width="138.0" />
+      <ListView fx:id="patients_area" layoutX="207.0" layoutY="247.0" prefHeight="150.0" prefWidth="387.0" style="-fx-background-color: #12d0ff;" />
+      <Button fx:id="call_next_patient_btn" layoutX="210.0" layoutY="146.0" mnemonicParsing="false" onAction="#callingNextPatient" prefHeight="33.0" prefWidth="109.0" style="-fx-background-color: #123454;" text="Call next patient" textFill="WHITE" />
+      <Text layoutX="233.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;I came" wrappingWidth="47.13671875">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="241.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I cared" wrappingWidth="47.13671875">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="241.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I charted.&quot;" wrappingWidth="73.0">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#123454" layoutX="325.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health Center" wrappingWidth="150.9609375">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#123454" layoutX="667.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Save one life, your'e a hero. Save 100 lives your'e a nurse.&quot;" wrappingWidth="98.13671875">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#123454" layoutX="219.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nurse Power! POW." wrappingWidth="138.0">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#123454" layoutX="341.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nurse Profile" wrappingWidth="150.9609375">
+         <font>
+            <Font name="Berlin Sans FB" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

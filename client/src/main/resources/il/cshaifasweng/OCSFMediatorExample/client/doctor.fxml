@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.DoctorController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../FinalBakcground.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backBtn" ellipsisString="" layoutX="-1.0" mnemonicParsing="false" onAction="#backBtnAction" prefHeight="22.0" prefWidth="69.0" style="-fx-background-color: #111111;" text="Exit" textFill="WHITE" underline="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="33.0" fitWidth="39.0" layoutX="86.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../People-Doctor-Male-icon.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="welcome_text" layoutX="134.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="118.93670654296875" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#12d0ff" height="22.0" layoutX="467.0" layoutY="405.0" stroke="#12d0ff" strokeType="INSIDE" width="138.0" />
+      <Button fx:id="view_apps" layoutX="253.0" layoutY="211.0" mnemonicParsing="false" onAction="#view_apps_handler" prefHeight="22.0" prefWidth="138.0" style="-fx-background-color: #123454;" text="View Your Patients" textFill="WHITE" wrapText="true" />
+      <ListView fx:id="apps_list" layoutX="253.0" layoutY="246.0" prefHeight="149.0" prefWidth="352.0" style="-fx-background-color: #12d0ff;" />
+      <Button fx:id="nextPatientBtn" layoutX="253.0" layoutY="177.0" mnemonicParsing="false" onAction="#callNextPatient" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: #123454;" text="Call next patient in" textFill="WHITE" />
+      <Text fill="#123454" layoutX="330.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health Center" wrappingWidth="150.9609375">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#123454" layoutX="625.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Save one life, your'e a hero. Save 100 lives your'e a doctor.&quot;" wrappingWidth="109.13671875">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#123454" layoutX="245.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I am no doctor, I am Iron man." wrappingWidth="95.63671875">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#123454" layoutX="341.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doctor Profile" wrappingWidth="150.9609375">
+         <font>
+            <Font name="Berlin Sans FB" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.LogInController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../FinalBakcground.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="336.0" layoutY="200.0" prefHeight="200.0" prefWidth="130.0" spacing="15.0">
+         <children>
+            <Button fx:id="Nursebtn" mnemonicParsing="false" onAction="#NurseA" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #123454;" text="Nurse" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="PatientBtn" mnemonicParsing="false" onAction="#PatientA" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #123454;" text="Patient" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="DoctorBtn" mnemonicParsing="false" onAction="#DoctorA" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #123454;" text="Doctor" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="ManagerBtn" mnemonicParsing="false" onAction="#ManagerA" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #123454;" text="Manager" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="25.0" />
+         </padding>
+      </VBox>
+      <Label alignment="CENTER" layoutX="229.0" layoutY="160.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="343.0" text="Choose your option for log in please!" textAlignment="CENTER" textFill="#132a13">
+         <font>
+            <Font name="Berlin Sans FB" size="22.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#12d0ff" height="16.0" layoutX="368.0" layoutY="407.0" stroke="#12d0ff" strokeType="INSIDE" width="92.0" />
+      <Text fill="#123454" layoutX="338.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Health Center" wrappingWidth="150.9609375">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
