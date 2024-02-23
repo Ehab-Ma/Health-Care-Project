@@ -1,8 +1,8 @@
 # OCSF Mediator Example
-##Team Info: 
+## Team Info: 
 this project was implemented by Ehab Mansour and Baseem Salem.
 
-##OverView
+## OverView
 the project was implemented using java,javaFX for the frontend and Hibernate for Communication with MYSQL database.
 
 ## Structure
